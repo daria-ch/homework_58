@@ -1,0 +1,19 @@
+.alert {
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.6s ease-out;
+    position: absolute;
+    top: -120%;
+    left: 0;
+}
+
+span {
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
+    .alert {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
